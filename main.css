@@ -1,0 +1,102 @@
+*{
+    /* to remove margin and paddng by default on all element */
+    /* margin: 0px;
+    padding: 0px; */
+}
+body{
+    margin:0
+}
+#header{
+    color:brown;
+    text-align: center;
+}
+#p1{
+    text-align: justify;
+    color: green;
+    line-height:1.5em;  
+}
+#p2{
+    text-align: justify;
+    color: yellow;
+    line-height:1.5em; 
+}
+#container{
+margin: auto;
+width:50%;
+background-color: black;
+border-left: solid red;
+}
+#range{
+    width: 200px;
+    height: 50px;
+}
+#meter{
+    color: rgba(0, 128, 0, 0.006);
+    width:"200px";
+    height: 50px;
+}
+progress{
+    width:200px;
+    height: 50px
+}
+input[type=text] {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none !important;
+    border-width: 1px;
+    box-shadow: 0 0 10px 0 gray;  
+}
+input[type=search] {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none !important;
+    border-width: 1px;
+    box-shadow: 0 0 10px 0 gray;  
+    width:400px;
+}
+input[type=submit] {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none !important;
+    border-width: 1px;
+    box-shadow: 0 0 10px 0 brown;  
+    width:100px;
+}
+#div2{
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    background-color: aqua;
+    border-right: 2px solid green;
+}
+nav{
+    float: right;
+    color:red;
+    margin-left:50%;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+#div2 p{
+    margin-top: 20px;
+    margin-left:6px;
+    margin-right:6px;
+    /* letter-spacing: 0.2em; */
+    /* word-spacing: 1em; */
+    
+}
+#div2 h2{
+    text-align: justify;
+    text-decoration: dashed;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:hover{
+    color:brown;
+}

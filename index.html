@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS super features</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <details>
+        <summary>
+          <h2 id="header">Some useful HTML Tags</h2>
+          <center>Lorem test generator</center>
+          <p id="p1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            reprehenderit rem debitis fuga assumenda consequuntur, magni sit
+            repellendus. Voluptate maiores eaque exercitationem debitis
+            aspernatur, magni beatae quod dolores a quis, sapiente quibusdam
+            esse cumque vel, temporibus doloribus odio aliquam illum animi rerum
+            molestias reprehenderit? Commodi labore, fugiat corrupti aspernatur
+            eligendi praesentium debitis cum sapiente quaerat reiciendis
+            laudantium porro perspiciatis doloremque vitae. Consequatur fugit
+            perferendis reiciendis assumenda quod. Vero non perferendis est
+            veritatis vel voluptatum quasi, dicta iure accusamus et nam sunt
+            culpa fugit debitis quis at officia quod ut voluptate. Repellendus
+            incidunt quos error et excepturi fuga consectetur nemo obcaecati
+            numquam nihil molestias tenetur, libero facere? Culpa consequuntur
+            dolor, nihil hic a cum aperiam, ab nulla eveniet, nemo doloremque?
+            Dolores ex doloribus eaque fugiat voluptatum molestias, ipsa,
+            tempora corporis atque maiores voluptate aspernatur officia natus
+            quasi maxime hic dolorum facilis eveniet debitis amet ut fuga
+            impedit non? Sint totam ullam omnis. Quidem consequuntur cumque
+            harum explicabo dolorum vitae quam aut. Tempore nulla saepe ab fugit
+            magnam ratione vel atque rem voluptas, aperiam voluptate animi
+            dolorem cum ad assumenda quia molestiae dolor laboriosam fugiat
+            autem delectus. Dignissimos cupiditate suscipit vitae rerum
+            accusamus aperiam laboriosam necessitatibus praesentium. Blanditiis
+            est doloribus sunt ratione.
+          </p>
+        </summary>
+      </details>
+    </div>
+    <!-- ariticle -->
+    <div>
+      <h5>Article</h5>
+      <article>
+          <div id="div1">Here is div one 1</div>
+          <div id="div">
+            <section>
+                <div id="div3">Here is div 3</div>
+                <div id="div4">Here is div 4</div>
+                <div id="div5">Here is div 5</div>
+            </section>
+          </div>
+          <section>
+            <div id="div6">Here is div 6</div>
+            <div id="div7">Here is div 7</div>
+            <div id="div8">Here is div 8</div>
+        </section>
+      </article>
+      <span>
+          <h4>This is for meter</h4>
+          <meter id="meter" max="100" min="20" value= "50">g</meter>
+      </span>
+      <span>
+          <h4>This is for Progress</h4>
+          <progress></progress>
+          <progress max="100" min="20" value= "50"></progress>
+      </span>
+      <span>
+        <h4>This is for color</h4>
+        <input type="color">
+      </span>
+      <span>
+          <h4>This is for range</h4>
+          <input type="range" id="range">
+      </span>
+      <span>
+          <h4>For text and Search input</h4>
+          <form action="">
+          <input type="text" list="suggestions1" size="40" placeholder="search for your Name...">
+          <datalist id="suggestions1">
+            <option>Maxthech</option>
+            <option>OgheneCode</option>
+            <option>weCodes</option>
+            <option>libcodes</option>
+        </datalist>
+          <input type="search" list="suggestions2" placeholder="search for your Car...">
+          <datalist id="suggestions2">
+            <option>Benz</option>
+            <option>Toyota</option>
+            <option>Tesla</option>
+            <option>BMW</option>
+        </datalist>
+        <span>
+          <input type="submit" value="CLICK">
+        </span>
+      </form>
+      </span>
+    <div>
+<!-- using a margin auto -->
+<div id="container">
+    <p id="p2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+            reprehenderit rem debitis fuga assumenda consequuntur, magni sit
+            repellendus. Voluptate maiores eaque exercitationem debitis
+            aspernatur, magni beatae quod dolores a quis, sapiente quibusdam
+            esse cumque vel, temporibus doloribus odio aliquam illum animi rerum
+            molestias reprehenderit? Commodi labore, fugiat corrupti aspernatur
+            eligendi praesentium debitis cum sapiente quaerat reiciendis
+            laudantium porro perspiciatis doloremque vitae. Consequatur fugit
+            perferendis reiciendis assumenda quod. Vero non perferendis est
+            veritatis vel voluptatum quasi, dicta iure accusamus et nam sunt
+            culpa fugit debitis quis at officia quod ut voluptate. Repellendus
+    </p>
+</div>
+<div id="div2">
+ 
+  <h2>This is for margin auto</h2>
+  <div>
+    <span style="color: red;">OgheneCodes</span><span style="color: blue">L</span><span>ogo</span>
+    <span>
+      <nav> 
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Blog</a>
+      </nav>
+    </span>
+  </div>
+  <hr style="background-color: blue;">
+ <p>
+  molestias reprehenderit? Commodi labore, fugiat corrupti aspernatur
+  eligendi praesentium debitis cum sapiente quaerat reiciendis
+  laudantium porro perspiciatis doloremque vitae. Consequatur fugit
+  perferendis reiciendis assumenda quod. Vero non perferendis est
+ </p>
+  
+</div>
+        <script>
+          var sec = document.querySelector("section");
+          //does not search for children or siblings
+          sec.closest('div ').style.backgroundColor = 'red';
+        </script>
+     
+
+    </body>
+    </html>
+  
