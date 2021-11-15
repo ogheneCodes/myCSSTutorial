@@ -149,5 +149,13 @@ a:hover{
 }
 /* using the nth is more powerful that the first-child or second-child calling */
 .my-list li:nth-child(1){
-    background-color:yellow;
+    /* background-color:yellow; */
+}
+/* using the nth-child for targeting the even elements */
+.my-list li:nth-child(odd){
+    background-color:green;
+}
+/* using the nth-child for targetin the even elements */
+.my-list li:nth-child(even){
+    background-color: gray;
 }
