@@ -123,3 +123,17 @@ a:hover{
     /* to make it fit into the container  and responsive use border-box for box sizing*/
     box-sizing:border-box;
 }
+#main-block{
+    float:left;
+    width: 70%;
+    padding: 15px;
+    box-sizing:border-box;
+}
+#sidebar{
+    float:left;
+    width: 30%;
+    color:#fff;
+    background-color:darkolivegreen;
+    padding: 15px;
+    box-sizing:border-box;
+}
