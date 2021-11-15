@@ -73,7 +73,10 @@ input[type=text] {
     border-right: 2px solid green;
 }
 nav{
-    float: right;
+    /* float: right; */
+    /* display: inline; */
+    display: inline-block;
+    /* display:block; */
     color:red;
     margin-left:50%;
     margin-top: 0px;
